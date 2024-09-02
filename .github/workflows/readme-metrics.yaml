@@ -26,7 +26,7 @@ jobs:
           # Options
           user: npujol
           template: terminal
-          base: header, activity, community, repositories, metadata
+          base: header, activity, community, metadata
           config_timezone: Europe/Berlin
           plugin_calendar: yes
           plugin_calendar_limit: 1
@@ -35,7 +35,7 @@ jobs:
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_from: 200
-          plugin_habits_languages_limit: 8
+          plugin_habits_languages_limit: 50
           plugin_habits_languages_threshold: 0%
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
@@ -45,7 +45,7 @@ jobs:
           plugin_languages_categories: programming
           plugin_languages_colors: github
           plugin_languages_limit: 50
-          plugin_languages_ignored: txt, html
+          plugin_languages_ignored: tex, html
           plugin_languages_recent_categories: markup, programming
           # plugin_languages_recent_days: 14
           # plugin_languages_recent_load: 300
